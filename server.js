@@ -6,8 +6,8 @@ import authRoutes from "./routes/auth.routes.js";
 import pollRoutes from "./routes/poll.routes.js";
 import http from "http";
 import {Server} from "socket.io";
-import Poll from "./models/Poll.js";
-import Vote from "./models/Vote.js";
+import Poll from "./models/poll.js";
+import Vote from "./models/vote.js";
 import crypto from "crypto";
 dotenv.config();
 
